@@ -1,0 +1,42 @@
+
+body {
+  background-image: url("backdrop.jpeg");
+  background-size: cover;
+}
+
+img {
+  height: 65%;
+  width: 65%;
+}
+
+img.cutout{
+  height: 14%;
+  width: 14%;
+}
+
+img.cutout-super{
+  height: 9%;
+  width: 9%;
+}
+
+button {
+  border: none;
+  font-family: "Karla", sans-serif;
+  background-color: #f0c764;
+  padding: 14px 28px;
+  font-size: 25px;
+  color: #404040;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background: #FDDA64;
+  cursor: grabbing;}
+
+p {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  line-height: 2px;
+}
