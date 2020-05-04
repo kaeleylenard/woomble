@@ -119,3 +119,17 @@ a:hover {
 body {
   line-height: 11px;
 }
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #FDDA64;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFC629;
+}
