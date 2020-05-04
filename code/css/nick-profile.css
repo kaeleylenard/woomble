@@ -1,0 +1,62 @@
+img {
+  height: 25%;
+  width: 25%;
+}
+
+img.display {
+  height: 90%;
+  width: 90%;
+}
+
+img.check {
+  height: 7%;
+  width: 7%;
+}
+
+img.superswipe {
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  background-color:  #FDDA64;
+  height: 322px;
+  position: relative;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.heading {
+  font-family: Montserrat;
+  color: #383838;
+  font-weight: 800;
+  font-size: 40px;
+  position: absolute;
+	bottom: 40px;
+  margin-left: 15px;
+}
+
+p.bio {
+  font-family: Montserrat;
+  color: #383838;
+  font-size: 16px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 15px;
+}
+
+
+body {
+  line-height: 11px;
+}
