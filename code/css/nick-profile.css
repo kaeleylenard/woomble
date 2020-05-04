@@ -56,6 +56,47 @@ p.bio {
   margin-left: 15px;
 }
 
+p.back {
+  text-align: left;
+}
+
+p.favorite {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p.top-match {
+  font-family: Montserrat;
+  font-weight: 300px;
+  margin-left: 15px;
+}
+
+p.message {
+  font-family: Montserrat;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+p.badge {
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 15px;
+  font-family: Montserrat;
+  display: inline;
+  background-color: #FDDA64;
+}
+
+div.message {
+  background-color: #F3EFA1;
+  display: inline-block;
+  width: 100%;
+}
+
+section {
+  display: block;
+  width: 100%;
+}
 
 body {
   line-height: 11px;
