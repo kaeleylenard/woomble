@@ -1,11 +1,6 @@
-img {
+img.logo {
   height: 25%;
   width: 25%;
-}
-
-img.display {
-  height: 90%;
-  width: 90%;
 }
 
 img.check {
@@ -14,8 +9,6 @@ img.check {
 }
 
 img.superswipe {
-  height: 40%;
-  width: 40%;
   position: absolute;
   bottom: 1px;
   right: 0px;
@@ -25,7 +18,7 @@ img.superswipe {
   float: left;
   width: 33.33%;
   background-color:  #FDDA64;
-  height: 322px;
+  height: 320px;
   position: relative;
 }
 
@@ -64,6 +57,7 @@ p.favorite {
   font-family: Montserrat;
   font-size: 20px;
   line-height: 30px;
+  margin-right: 15px;
 }
 
 p.top-match {
@@ -87,6 +81,20 @@ p.badge {
   background-color: #FDDA64;
 }
 
+p.question {
+  font-family: Montserrat;
+  font-weight: 800;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+p.answer {
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
 div.message {
   background-color: #F3EFA1;
   display: inline-block;
@@ -97,11 +105,23 @@ div.images {
   background-color: #FDDA64;
   display: block;
   font-size: 0;
+  height: 300px;
 }
 
-section {
-  display: block;
+div.questions {
+  background-color: #F3EFA1;
+  display: inline-block;
   width: 100%;
+}
+
+a {
+  color: #FFC629;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover {
+  color: #FF6C37;
 }
 
 body {
