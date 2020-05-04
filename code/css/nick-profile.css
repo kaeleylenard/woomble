@@ -58,8 +58,8 @@ p.favorite {
 }
 
 p.top-match {
-  font-weight: 300px;
   margin-left: 15px;
+  color: #e0a289;
 }
 
 p.message {
@@ -118,6 +118,7 @@ a:hover {
 
 body {
   line-height: 11px;
+  padding-top: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -132,4 +133,15 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #FFC629;
+}
+
+.header {
+  background: white;
+  z-index: 1000;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
