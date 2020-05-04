@@ -29,8 +29,11 @@ img.superswipe {
   clear: both;
 }
 
-p.heading {
+p {
   font-family: Montserrat;
+}
+
+p.heading {
   color: #383838;
   font-weight: 800;
   font-size: 40px;
@@ -40,7 +43,6 @@ p.heading {
 }
 
 p.bio {
-  font-family: Montserrat;
   color: #383838;
   font-size: 16px;
   font-weight: 300;
@@ -49,25 +51,18 @@ p.bio {
   margin-left: 15px;
 }
 
-p.back {
-  text-align: left;
-}
-
 p.favorite {
-  font-family: Montserrat;
   font-size: 20px;
   line-height: 30px;
   margin-right: 15px;
 }
 
 p.top-match {
-  font-family: Montserrat;
   font-weight: 300px;
   margin-left: 15px;
 }
 
 p.message {
-  font-family: Montserrat;
   font-size: 20px;
   margin-left: 15px;
 }
@@ -76,20 +71,17 @@ p.badge {
   border-radius: 20px;
   padding: 5px;
   margin-left: 15px;
-  font-family: Montserrat;
   display: inline;
   background-color: #FDDA64;
 }
 
 p.question {
-  font-family: Montserrat;
   font-weight: 800;
   margin-left: 15px;
   font-size: 25px;
 }
 
 p.answer {
-  font-family: Montserrat;
   font-weight: 300;
   margin-left: 15px;
   font-size: 18px;
