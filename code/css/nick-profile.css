@@ -93,6 +93,12 @@ div.message {
   width: 100%;
 }
 
+div.images {
+  background-color: #FDDA64;
+  display: block;
+  font-size: 0;
+}
+
 section {
   display: block;
   width: 100%;
