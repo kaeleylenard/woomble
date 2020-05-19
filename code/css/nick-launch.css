@@ -1,6 +1,7 @@
 body {
   background-image: url("backdrop.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -31,7 +32,8 @@ button {
 
 button:hover {
   background: #f0c764;
-  cursor: grabbing;}
+  cursor: pointer;
+}
 
 p {
   font-size: 14px;
