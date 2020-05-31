@@ -1,0 +1,5 @@
+ScrollReveal().reveal('.header', { delay: 100 })
+ScrollReveal().reveal('.row', { delay: 200 })
+ScrollReveal().reveal('.message', { delay: 300 })
+ScrollReveal().reveal('.images', { delay: 300 })
+ScrollReveal().reveal('.questions', { delay: 100 })

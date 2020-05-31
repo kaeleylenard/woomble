@@ -122,6 +122,7 @@ a:hover {
 body {
   line-height: 11px;
   padding-top: 10px;
+  background-color: #f5f5f5;
 }
 
 ::-webkit-scrollbar {
@@ -139,7 +140,7 @@ body {
 }
 
 .header {
-  background: white;
+  background: #f5f5f5;
   z-index: 1000;
 }
 
