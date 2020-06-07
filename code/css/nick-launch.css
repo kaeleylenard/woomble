@@ -35,7 +35,7 @@ button:hover {
   cursor: pointer;
 }
 
-p {
+p, a {
   font-size: 14px;
   color: #ffffff;
   font-family: "Karla", sans-serif;

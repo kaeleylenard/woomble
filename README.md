@@ -9,6 +9,10 @@ Woomble was created by fusing the last name **Woo** and the popular dating site 
     ```
     <script src="https://unpkg.com/scrollreveal"></script>
     ```
+  * JS Typed Effect
+    ```
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    ```
 
 # View the Site
 This site is hosted using GitHub Pages.
